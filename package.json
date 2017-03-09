@@ -1,6 +1,6 @@
 {
-  "name": "infinite",
-  "version": "0.0.1",
+  "name": "react-scroll-loader",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/infinite.js",
   "scripts": {
@@ -25,15 +25,19 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/gragland/react-scroll-loader"
   },
   "author": "Gabe Ragland <gabe.ragland@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/gragland/react-scroll-loader/issues"
   },
   "keywords": [
-
+    "react",
+    "component",
+    "scroll",
+    "loader",
+    "infinite"
   ],
   "homepage": ""
 }
