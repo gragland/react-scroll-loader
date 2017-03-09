@@ -1,4 +1,4 @@
-# react-perfect-image
+# react-scroll-loader
 Simple, efficient infinite scroll component for React
 
 ## Demo
