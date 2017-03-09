@@ -36,7 +36,7 @@ class Infinite extends React.PureComponent {
 
   checkScroll(trailing){
 
-    const { loading, atEnd, requestHandler } = this.props;
+    const { atEnd, requestHandler } = this.props;
 
     const minDistanceFromBotton = 50;
 
@@ -59,7 +59,7 @@ class Infinite extends React.PureComponent {
     if (atEnd){
       logger('No more pages');
     }else
-    if (reachedBottom && !loading) {
+    if (reachedBottom) {
       logger('Requesting next page');
       requestHandler();
     }
@@ -105,7 +105,6 @@ function logger(message, object){
 
 Infinite.defaultProps = {
   atEnd: false,
-  loading: false,
   // Could we do a conditional require of our bundled svg ...
   // ... so that it gets removed by webpack if user specifies a different icon?
   loadingIcon: loadingIcon
@@ -113,7 +112,6 @@ Infinite.defaultProps = {
 
 Infinite.propTypes = {
   requestHandler: React.PropTypes.func,
-  loading: React.PropTypes.bool,
   atEnd: React.PropTypes.bool,
   children: React.PropTypes.node
 };
