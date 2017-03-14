@@ -2,7 +2,7 @@
 Simple, efficient infinite scroll component for React
 
 ## Demo
-<a href="https://unsplash.now.sh">unsplash.now.sh</a>
+<a href="https://unsplash.now.sh">unsplash.now.sh</a> ([source](https://github.com/gragland/unsplash-demo))
 
 ## Install
 `npm install react-scroll-loader --save`
